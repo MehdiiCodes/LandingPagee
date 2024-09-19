@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Bookstore Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <!-- Header Section -->
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto flex justify-between items-center py-6 px-4">
+            <a href="#" class="text-3xl font-bold text-indigo-600">E Library</a>
+            <nav class="space-x-4">
+                <a href="#featured" class="text-gray-700 hover:text-indigo-600">Featured</a>
+                <a href="#categories" class="text-gray-700 hover:text-indigo-600">Categories</a>
+                <a href="#testimonials" class="text-gray-700 hover:text-indigo-600">Testimonials</a>
+                <a href="#contact" class="text-gray-700 hover:text-indigo-600">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-indigo-600 text-white py-16">
+        <div class="container mx-auto text-center">
+            <h1 class="text-5xl font-bold">Welcome to the Library</h1>
+            <p class="mt-4 text-lg">Explore a vast selection of books at unbeatable prices.</p>
+            <a href="#featured" class="mt-8 inline-block px-8 py-3 bg-white text-indigo-600 rounded-md hover:bg-gray-100">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Featured Books Section -->
+    <section id="featured" class="py-16">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center">Featured Books</h2>
+            <div class="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Book 1 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://th.bing.com/th/id/R.1f9866e6de5231119ced7d5afe584413?rik=wDbyH2v%2fc1Exww&riu=http%3a%2f%2fstaticsml.imam-khomeini.ir%2fUserFiles%2fen%2fImages%2fNews%2f2018%2fThe-Ashura-Uprising.jpg&ehk=Fg%2fTKsPZ3YTegoLbnoCG%2bPF8wudd%2b32W5X%2bhOEmeH%2bU%3d&risl=&pid=ImgRaw&r=0" alt="Book 1" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold">The Ashura Uprising</h3>
+                        <p class="text-gray-600">Imam Khomeini</p>
+                        <p class="text-indigo-600 font-bold">$19.99</p>
+                    </div>
+                </div>
+                <!-- Book 2 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://en.shafaqna.com/wp-content/uploads/2022/08/IMG_%DB%B2%DB%B0%DB%B2%DB%B2%DB%B0%DB%B8%DB%B0%DB%B4_%DB%B1%DB%B5%DB%B1%DB%B1%DB%B5%DB%B5-960x970.jpg" alt="Book 2" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold">The Compassionate Family</h3>
+                        <p class="text-gray-600">Sayyid Ali Khamenei</p>
+                        <p class="text-indigo-600 font-bold">$24.99</p>
+                    </div>
+                </div>
+                <!-- Book 3 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://al-buraq.org/cdn/shop/files/photo_2020-11-22_15-47-03_1024x1024_2x_9b763614-31fa-43f5-b12c-82e1747329ce_1024x1024.jpg?v=1690494573" alt="Book 3" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold">Peace Be Upon Ibrahim </h3>
+                        <p class="text-gray-600">Payam Azadi edition</p>
+                        <p class="text-indigo-600 font-bold">$14.99</p>
+                    </div>
+                </div>
+                <!-- Book 4 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://th.bing.com/th/id/OIP.uCiUTaniGPCCSJqx5NsAIwAAAA?rs=1&pid=ImgDetMain" alt="Book 4" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold">101 Tips for a Happy Marriage</h3>
+                        <p class="text-gray-600">Sayyid Ali Khamenei</p>
+                        <p class="text-indigo-600 font-bold">$29.99</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section id="categories" class="bg-gray-100 py-16">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold">Book Categories</h2>
+            <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Category 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold">Family</h3>
+                </div>
+                <!-- Category 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold">Science</h3>
+                </div>
+                <!-- Category 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold">Biographies</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-16">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center">What Our Readers Say</h2>
+            <div class="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <p class="text-gray-600">"Great selection of books! I'm always finding something new to read."</p>
+                    <p class="text-indigo-600 mt-4 font-bold">- Qasim</p>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <p class="text-gray-600">"Affordable prices and fast shipping, highly recommend!"</p>
+                    <p class="text-indigo-600 mt-4 font-bold">- Zahra</p>
+                </div>
+                <!-- Testimonial 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <p class="text-gray-600">"A fantastic variety of books across all genres!"</p>
+                    <p class="text-indigo-600 mt-4 font-bold">- Sarah</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="bg-indigo-600 text-white py-16">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold">Subscribe to Our Newsletter</h2>
+            <p class="mt-4">Get the latest updates on new arrivals and special Books.</p>
+            <div class="mt-6 flex justify-center">
+                <input type="email" placeholder="Enter your email" class="px-4 py-2 rounded-l-md focus:outline-none">
+                <button class="bg-white text-indigo-600 px-6 py-2 rounded-r-md">Subscribe</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 MehdiiCodes. All rights reserved.</p>
+            <p>Contact us: akbarrr1026@gmail.com</p>
+        </div>
+    </footer>
+</body>
+</html>
